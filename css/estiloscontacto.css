@@ -1,0 +1,126 @@
+h1{
+    font-size: 70px;
+    color:#000;
+    text-align: center; 
+}
+*{
+    	margin:0 auto;
+    	padding: 0;
+    }
+    body{
+    	font-family: century gothic;
+    	background-color: white;
+    }
+
+    header{
+    	background-color: black;
+
+    	padding: 15px;
+    }
+
+    nav{
+    	background-color: #606060;
+    	padding: 10px;
+    }
+
+    ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #262626;
+    }
+
+    	li {
+    		background-color: #262626;
+    		float:right;
+    		border-right: 1px solid;
+
+    	}
+
+    	li a {
+    		display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+    	}body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+
+	font-family: century gothic;
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+
+	padding: 10px 20px;
+	/*observacion:*/
+
+	/*el ancho dewl form ya no e 450 si no 490 por el
+	padding*/
+	box-sizing: border-box;
+	/*con esto el relleno del padding(20) del formulario
+	se van a hacia adentro y no hacia afuera sumandole*/
+	margin-top: 20px;
+	border-radius: 7px;
+
+}
+
+h2{
+	color:#fff;
+	text-align: center;
+	margin:0;
+	font-size:30px;
+	margin-bottom: 20px;
+
+}
+
+/*estilos para los input´s (*/
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+
+	font-size: 17px;
+	border:none; 
+}
+
+textarea{
+	/*altura maxima y altura minima del textarea*/
+	min-height:100px;
+	max-height:200px;
+	/*para que no puedas escalarlo hacia la derecha*/
+	max-width: 100%;
+}
+
+#boton{
+	background: #31384a;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+/*los medias son condicionales como los if·s*/
+/*Son estilos condicionales que se aplican al navegadores siempre y cuando se cumpla algo*/
+
+
+/*tamaño maximo 480px*/
+/*lo que este entre las llaves se realice
+siempre y cuando el ancho maximo sea 480px o
+de 480px hacia abajo.
+Si se pasa de los 480px lo que esta aqui no
+se cumple o no se realiza*/
+
+@media(max-width:480px){
+	form{
+		width:100%;
+	}
+}

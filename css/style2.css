@@ -1,0 +1,88 @@
+h1{
+    font-size: 70px;
+    color:#000;
+    text-align: center; 
+}
+*{
+    	margin:0 auto;
+    	padding: 0;
+    }
+    body{
+    	font-family: century gothic;
+    	background-color: white;
+    }
+
+    header{
+    	background-color: black;
+
+    	padding: 15px;
+    }
+
+    nav{
+    	background-color: #606060;
+    	padding: 10px;
+    }
+
+    ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #262626;
+    }
+
+    	li {
+    		background-color: #262626;
+    		float:right;
+    		border-right: 1px solid;
+
+    	}
+
+    	li a {
+    		display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+    	}body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+
+	font-family: century gothic;
+}
+
+.box{
+	width: 800px;
+	height: 800px;
+	border-radius: 10px;
+	margin: 0 15px;
+	color: yellow;
+	text-align: center;
+	background: #333;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	box-shadow: 0 2px 1px hsla(0, 0%, 100%, 0.5) inset,
+	            0 -2px 1px hsla(250, 70%, 5%, 0.3) inset,
+	            0 -2px 1px hsla(0, 0%, 100%, 0.25);
+}
+.content{
+	padding: 100px 0;
+	color: white;
+}
+.icon-area{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background: orange;
+	border-radius: 50px;
+	transition: all .9s ease;
+}
+.icon-area i{
+	color: #333;
+	font-size: 45px;
+	line-height: 100px;
+}
+.box:hover .icon-area{
+	transform: rotate(360deg);
+}
